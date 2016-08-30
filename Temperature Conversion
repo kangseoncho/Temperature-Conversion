@@ -1,0 +1,24 @@
+var whichTemp = prompt("Please type if you want to convert from Celsius to Farenheit, press 1.  To convert from Farenheit to Celsius, press 2").toLowerCase();
+
+if(whichTemp === "1" )
+{
+  var farenheit = prompt("Please enter the Farenheit to convert to Celcius.");
+  var celsius = (farenheit - 32)* (5/9); 
+  document.write(farenheit + " degree Farenheit is equal to "+ celsius + " degrees Celsius");
+}
+else if (whichTemp === "2")
+{
+  var celsius = prompt("Please enter the Celsius to convert to Farenheit.");
+  var farenheit = celsius*(9/5) + 32;
+  document.write(celsius + " degree Celsius is equal to "+ farenheit + " degrees Farenheit");
+}
+else 
+{
+  alert("Please type number 1 or 2!");
+  
+};
+
+
+
+/* formula is C = (F-32) * 5/9 */
+/* formula is F = (9/5)*C + 32  */
