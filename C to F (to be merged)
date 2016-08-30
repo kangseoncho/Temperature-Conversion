@@ -1,6 +1,0 @@
-/* formula is F = (9/5)*C + 32  */
-
-var celsius = prompt("Please enter the Celsius to convert to Farenheit.");
-
-var farenheit = celisus*(9/5) + 32;
-document.write(celsius + " degree Celsius is equal to "+ farenheit + " degrees Farenheit");
