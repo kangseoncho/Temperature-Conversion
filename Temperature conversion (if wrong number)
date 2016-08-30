@@ -17,6 +17,6 @@ else if (whichTemp === "2")
 else 
 {
   alert("Please type number 1 or 2!");
-  continue:
+  continue: /*cause infinite loop. do not run!  */
 };
 };
